@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+            <div id = "login-form">
+            <h1>Registration Form</h1>
+
+        <!-- action is where the form submits to -->
+        <!-- method is how the form will be submitted  GET, POST, PUT, DELETE-->
+            <form action=“app.js” method=“post” id = "my_form">
+                <label for = "firstName">First Name:</label>
+                <input type = "text" name = "firstName" id = "firstName">
+                <br><br>
+    
+                <label for = "lastName">Last Name:</label>
+                <input type = "text" name = "lastName" id = "lastName">
+                <br><br>
+                <label for = "userName">Username:</label>
+                <input type = "text" name = "userName" id = "userName">
+                <br><br>
+                <label for = "password">Password:</label>
+                <input type = "password" name = "password" id = "password">
+                <br><br>
+                <label for = "email">Email </label>
+                <input type = "email" name = "email" id = "email">
+                <br><br>
+                <label for = "phoneNumber">Phone Number:</label>
+                <input type = "text" name = "phoneNumber" id = "phoneNumber">
+                <br><br>
+                <label for="cityMenu">City:</label>
+                    <select name="cityMenu" id="cityMenu">
+                      <option value="Memphis">Memphis</option>
+                      <option value="Nashville">Nashville</option>
+                      <option value="Knoxville">Knoxville</option>
+                    </select>
+                    <br>
+                    <br>
+                <input type = "submit" value = "Submit">
+            </form>
+    
+        </div>
+
+
+<script src = "app.js"></script>
+<footer>
+
+<table id = "footerAnswer">Answers?</table>
+</footer>
+</body>
+</html>
